@@ -1,0 +1,36 @@
+NOTAS DIA 3 - BLOCO 2.1 - GIT e GITHUB 
+
+
+--- dinamica ✅
+
+--- exercicios ✅
+
+--- aula ao vivo:
+
+CONFIGURACAO GIT: 
+git config --global user.name "Seu nome" (seta o seu nome para a configuracao git)
+git config --global user.email email@email.com.br (seta o seu email para a configuracao git)
+git config --global core.editor "code --wait" (--wait vai fazer o git "esperar" vc fechar a janela recem aberta do editor)
+git version (retorna a versao atual instalada do git)
+git config --list (retorna a lista de configuracoes, ou seja o conteudo do .gitconfig)
+
+code .gitconfig (editar o arquivo manualmente pelo editor de texto)
+
+CRIANDO REPOSITORIO LOCAL USANDO GIT:
+git init (inicia o repositorio local)
+git status (retorna o status do repositorio, se houve alguma alteracao, etc)
+git add (adiciona arquivo/s especificos do repositorio local para serem comitados)
+git add . (adiciona todos os arquivos alterados ao repositorio local)
+git commit -m "Mensagem sobre altercao feita" (faz o commit para o repositorio local, -m significa a flag de mensagem.)
+git remote add origin (conecta o repositorio remoto (github) com o local)
+git push origin master (envia/empurra as alteracoes do repositorio local para o remoto)
+git checkout NOME_BRANCH (sai de uma branch pra outra)
+
+OBS: origin seria um apelido para o seu repositorio
+OBS: * no nome da branch significa que essa é a branch selecionada
+OBS: staging seria oq vai ser commitado (oq foi adicionado pelo 'add')
+
+
+
+
+

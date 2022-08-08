@@ -1,0 +1,40 @@
+--- aula 1 parte 1:
+head -n 5 skills.txt (mostra as 5 primeiras frases)
+
+head -n 4 skills.txt (mostra as 4 ultimas frases)
+
+rm *.txt (remove todos os arquivos .txt)
+
+--- aula 1 parte 2: 
+
+grep Frase arquivo.extensao
+
+grep -i Frase arquivo.extensao (acha arquivos em lowercase)
+
+grep -i 'frase/palavra' arquivo.extensao (entre aspas simples ou apostrofo)
+
+grep -in 'frase/palavra' arquivo.extensao mesma coisa do de cima mas fala o nome da linha
+
+grep -iv 'frase/palavra' arquivo.extensao lista as frases que nao possui a palavra pesquisada
+
+grep -ic 'frase/palavra' arquivo.extensao mostra a quantidade de vezes que a palavra aparece no arquivo
+
+wc arquivo.extensao (mostra a quantidade de linhas|palavras|caracteres no arquivo)
+
+wc -w arquivo.extensao (mostra a quantidade de palavras no arquivo)
+
+wc -c arquivo.extensao (mostra a quantidade de caracteres do arquivo)
+
+wc -l arquivo.extensao (mostra a quantidade de linhas do arquivo)
+
+ls *.extensao (lista os arquivos com a extensao apontada)
+
+ls *.extensao *.extensao (lista os arquivos com as extensoes apontadas)
+
+man commando (acessa o manual do comando)
+
+rm arquivo.extensao (remove arquivo simples)
+
+rmdir /diretorio/ (remove diretorio simples)
+
+rm -rf ('-r' remove pastas com coisas dentro, recursivamente, pastas e arquivos dentro e o 'f' forca essa acao sem se preocupar com permissoes)

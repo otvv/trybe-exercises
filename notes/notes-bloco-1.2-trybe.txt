@@ -1,0 +1,171 @@
+PRIMEIRAS PERGUNTAS SOFT SKILL
+
+qual foi algo que vc considera que deixou um legado/impacto em outras pessoas
+1. meu breve trabalho na emive.
+
+qual foi o seu maior erro
+2. o meu trabalho na emive. e consequentemente a minha ignorancia e falta de responsabilidade/comprometimento com o serviço
+
+com o que vc pode contribuir em um grupo
+3. com novas ideias, meu conhecimento na area 
+
+
+TODO: BAIXAR O NOTION ou CRIAR UM REPOSITORIO NO GITHUB PARA ANOTAR AS SUAS EVOLUCOES DE SOFTSKILLS/TALVEZ USAR O DIARY.
+
+Thread Slack Assincrono:
+
+R: Como várias pessoas disseram, escolher algumas habilidades em específico é bem complicado, pois todas ajudam de alguma forma, mas pra mim as que mais iriam me ajudar seria a de comunicação, liderança e inteligência emocional.
+ Pelo fato de eu ser uma pessoa bem tímida, tenho um certo problema em me expressar/comunicar assertivamente com certas pessoas. E justamente pelo fato de eu ter muita vontade de gerir uma equipe, pessoas e etc, acredito que vai ser uma das soft-skills mais importantes pra mim.
+ 
+ AULA UNIX & BASH:
+ 
+ cat ==> (retorna o texto digitado)
+ cat > arquivo.extensao + ctrl+d (atribui valores ao arquivo especificado)
+ cat arquivo.extensao (mostra os conteudo do arquivo)
+ cat >> cores.txt + ctrl+d (adiciona mais informações ao arquivo)
+ cat arquivo1.txt arquivo2.txt > arquivo3.txt (junta os 2 primeiros arquivos e passa os valores para um novo arquivo (arquivo3.txt))
+ 
+ sort < arquivo.extensao (sort = forma de output/saida de dados ele ordena e coloca em ordem alfabetica o conteudo do arquivo sem alterar o arquivo original)
+ 
+ sort < arquivo_original.extensao > arquivo_ordenado.extensao (o simbolo < vai pegar o conteudo do arquivo original e ordenar pelo comando sort e mandar o resultado para um novo arquivo. o simbolo > faz a "transferencia" dos dados ordenados do arquivo original para um novo arquivo)
+ 
+ who (mostra quem tem acesso ao sistema)
+ 
+ who | sort (o simbolo '|' vai enviar a resposta do primeiro comando e transmitir atraves do segundo comando)
+ 
+ (colas de simbolos: > (maior) | (pipe) | < (menor) | >> (maior maior))
+ 
+ who | wc -l (vai pipear o comando who atraves do wc -l)
+ 
+ 
+ -------------------------------------
+ 
+ # Considere o arquivo nomes.txt para os exemplos a seguir
+# Seu conteúdo inicial é:
+Ana
+Maria
+João
+
+# O > redireciona a saída padrão para um arquivo, sendo assim
+# caso haja algum conteúdo no arquivo, ele será substituído
+
+cat > nomes.txt
+# Digite o nome "Amanda" e encerre o cat (Ctrl + D)
+
+cat nomes.txt
+# Resultado
+Amanda
+
+# O >> anexa a saída padrão a um arquivo. Sendo assim, ele adiciona
+# o que for digitado ao final do arquivo em questão
+
+cat >> nomes.txt
+# Digite o nome "Fernanda", depois `enter` e o nome "Fabiano", e encerre o cat (Ctrl + D)
+
+cat nomes.txt
+# Resultado
+Amanda
+Fernanda
+Fabiano
+
+# O | canaliza a saída do primeiro comando para a entrada do segundo,
+# dessa forma conseguimos realizar comandos de forma sucessiva
+
+# Considere que queremos uma lista com todos os nomes que contenham
+# a letra "F" e que nosso resultado esteja em ordem alfabética
+# Para isso podemos realizar o comando abaixo
+
+grep F nomes.txt | sort
+# Resultado
+Fabiano
+Fernanda
+
+--------------------------------------------------
+
+ls -l ou ls -ll (-l e -ll printa mais informacoes sobre os arquivos listados, inclusive as permissoes, usuarios, grupo do usuario, tamanho e ultima data em que o arquivo foi alterado)
+
+
+significado das permissoes: 
+
+R = leitura permitida do arquivo ou diretorio (read)
+W = editar um arquivo ou modificar o conteudo de um diretorio (write)
+- = arquivo comum
+d = diretorio
+rw = ler e escrever 
+x = executar
+1 parte = tipo de arquivo
+2 parte = permissao do usuario
+3 parte = permissao do grupo
+4 parte = permissao de outros usuarios
+usar o - com o chmod tira a permissao
+usar o + com o chmod aumentar a permissao
+usar o = com o chmod para deixar a permissao igual
+
+chmod u (alterar permissoes de um arquivo apenas para um usuario)
+chmod g (alterar permissoes de um arquivo para um grupo)
+chmod o (outros usuarios)
+chmod a (todo mundo)
+
+chmod u-rw (tira a permissao de leitura e escrita do arquivo.txt para usuario)
+chmod u+rw (adiciona permissao de leitura e escrita para arquivo.txt para usuario)
+
+ps (lista os processos rodando)
+sleep tempo (pausa o terminal pelo tempo determinado)
+sleep tempo & (operador & deixa/cria o processo em background)
+ctrl+z (suspende/para o processo atual)
+bg (continua a execucao do ultimo processo suspenso por tras)
+jobs (mostra os processos sendo executados + seu status)
+fg %1 (continua a execucao do ultimo processo suspenso pela frente o %1 seria o numero do processo na lista)
+ctrl+c (termina o processo rodando ele)
+kill %1 (termina um processo utilizando o numero do processo na lista)
+kill PID (termina um processo utilizando o PID)
+kill -9 PID (forca um processo a ser fechado utilizando o PID)
+
+
+-------------
+
+
+# Para listar todos os arquivos que terminam em .txt
+find . -name "*.txt"
+
+# Para localizar todos os diretórios
+find . -type d
+
+# Para localizar todos os arquivos
+find . -type f
+
+# Localizar tanto arquivos quanto diretórios que comecem
+# por algum trecho
+find ./teste -name "exemplo*"
+# Resultado
+./teste/exemplo.txt
+./teste/exemplo
+
+# Localizar somente arquivos que comecem por algum trecho
+find ./teste -type f -name "exemplo*"
+# Resultado
+./teste/exemplo.txt
+
+# Localizar somente diretórios que comecem por algum trecho
+find ./teste -type d -name "exemplo*"
+# Resultado
+./teste/exemplo
+
+# Mostra o histórico de comandos
+history
+# Pegar os últimos 10 comandos
+history | tail
+
+echo "Este é um teste"
+# Resultado
+Este é um teste
+
+# Pode ser usado para colocar textos dentro de arquivos.
+echo "Este é mais um teste" > teste.txt
+cat teste.txt
+Este é mais um teste
+
+# Pesquisar conteudo de um arquivi
+grep 'conteudo/frase' arquiv.extensao
+
+fone do mano fortre n3+
