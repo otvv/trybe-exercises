@@ -1,0 +1,13 @@
+git rm --cached arquivo.extensao (remove um arquivo ou arquivos a serem comitados. remove eles do staging/"caixa")
+git restore (restaura as edicoes da pasta atual)
+git log --diff-filter=D --summary (vai retornar as "diferenças" do repositorio, neste caso utilizando o filtro 'D' que significa que vai procurar pelas diferenças. ou commits que sao de delecao e vai fazer um sumario delas)
+git checkout 4_PRIMEIROS_NUMEROS_DO_HASH_DO_COMMIT~1 (o git checkout serve pra sair de um "local" e ir para outro, isso vale para sair de branches, e para voltar ou ir para um commit especifico. o (~1 seria o número de arquivos que vc quer restaurar?))
+git commit -a (a flag -a agrupa o comando add ao commit, entao ele ja faz o commit adicionando os arquivos no staging)
+git fetch mostra as mudancas a serem feitas no repositorio (uma visualizacao)
+git pull (ja pega as mudancas do repositorio remoto e atualiza no seu repositorio local)
+
+OBS: apos fazer a restauracao de um arquivo, nao esqueca de fazer um commit para de fato restaurar o arquivo.
+OBS: o gitignore pode ser usado para ignorar qualquer tipo de arquivo ou diretorio
+OBS: se a pasta ja tiver uma pasta oculta '.git' isso significa que ela ja eh um repositorio
+OBS: origin seria a mesma coisa que o url do repositorio, em outras palavras o caminho do repositorio remoto
+OBS: sempre dar um git status
