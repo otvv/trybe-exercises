@@ -1,0 +1,143 @@
+CLIENTE:
+
+- quando falamos em cliente-servidor (internet), o cliente geralmente é o navegador em que o usuário está utilizando para acessar o site.
+ex: Opera, Firefox, Chrome, Safari, etc.
+
+- o cliente é uma aplicação que está conectada à internet.
+sua principal funcao é receber a interação do usuário e traduzi-la em uma requisição para outro computador (servidor)
+
+- o nosso PC também pode ser considerado o cliente ao falarmos de cliente-servidor
+
+- o endereço de IP é como se fosse o RG ou CPF de uma máquina.
+
+
+
+SERVIDOR:
+
+- o servidor espera por requisições de outros clientes (máquinas)
+
+- o servidor tem um software em específico sendo rodado nele que irá dizer como ele deve responder a requisição feita pelo navegador do cliente (o nosso navegador)
+
+- a principal funcao do servidor é armazenar, processar e entregar paginas web para os clientes.
+
+- há diversos tipos de servidores como web servers, database servers, file servers, application servers
+
+- o servidor usado para fazer buscas e requisicoes em sites, são os web servers
+
+
+
+ENDEREÇO IP:
+
+- IP = Internet Protocol
+
+- o endereço IP é um identificador numérico para um dispositivo (computador, tablet, celular, roteador, impressora, servidor) conectados a rede tcp/ip
+
+- todo dispositivo conectado a internet tem um denreço de ip unico que servirá para identificalo e vai ser usado tmb para comunicar com outros dispositivos.
+
+- os endereços de ip tem 4 campos de digitos separados por pontos.
+
+- os numeros do endereço de ip são considerados de endereço lógico
+
+- para localizar um dispositivo conectado a internet o denreço logico é convertido em um endereço fisico por um software
+
+- esse endereço fisico faz parte do seu hardware, é conhecido como MAC address (endereço de controle de acesso à midia)
+
+
+
+TCP/IP:
+
+- o TCP/IP e o principal protocolo de envio e recebimento de dados na internet.
+
+- TCP = Transmission Control Protocol (Protocolo de Controle de Transmissao)
+
+- o TCP sera responsavel por definir como diferentes aplicacoes se comunicam na rede e como os dados enviados serao divididos em pacotes
+
+- e o IP define como os dados divididos em pacotes devem ser enviados para chegar corretamente ao destinatario
+
+- o TCP/IP e a unicao dos protocolos TCP e IP
+
+- basicamente uma pilha de protocolos que sao dividas em 4 camads: aplicacao, transporte, rede e interface.
+
+- cada uma dessas camadas tem uma responsabilidade especifica, mas todas sao conectadas entre si para garantir a seguranca e a disponibilidade dos dados
+
+
+
+
+ISP: 
+
+- ISP = Internet Service Provider
+
+- ISP e o provedor de internet do cliente, no caso o seu provedor de internet.
+
+
+
+
+
+DNS: 
+
+- DNS = Domain Name System
+
+- DNS e um dispositivo com uma base de dados distribuida que gerencia os nomes de servicos, computadores ou qualquer dispositivo conectado a internet
+
+- ele e usado para relacionar o endereco nominal (youtube.com) com o endereco IP
+
+- ele "guarda" os nomes de dominio e seus respectivos enderecos de IP 
+
+- os servidores dns sao responsaveis por localizar e traduzir para numeros (traduzir para um endereco IP) as buscas por sites que digitamos no navegador (basicamente quando vc escreve google.com ele traduz o texto para o ip do servidor)
+
+
+
+
+
+
+PORT:
+
+- o numero da porta [e um numero de 16 bits utilizado para identificar uma porte especifica no servidor
+
+- ela sempre esta atrelada ao endereco de IP
+
+- a porta serve para diferenciar uma acao/processo especifica sendo requisitada para o servidor
+
+
+
+
+
+HOST: 
+
+- o host seria qualquer dispositivo conectado a rede que pode transmitir ou receber pacotes IP.
+
+- tanto faz se for cliente ou servidor
+
+- pode ate ser outro tipo de modelo
+
+- cada host tem um endereco de ip unico (tvs, tablets, computadores, celulares)
+
+- no caso de um site (google.com) o host seria o servidor web que esta hospedando a pagina na web
+
+- nao confunda host com servidor, sao coisas diferentes! O servidor e um tipo de host, uma maquina especifica com um endereco de ip
+
+- o host tambem pode ser uma organizacao inteira, que oferece o servico de hospedagem que mantem inumeros servidores web
+
+
+
+
+
+HTTP:
+
+- HTTP = Hyper-text Transfer Protocol
+
+- e o protocolo utilizado para comunicacao entre navegadores e servidores
+
+
+
+
+
+URL:
+
+- URL = Uniform Resource Locators
+
+- ele identifica um recurso web especifico
+
+- o url identifica o protocolo que sera utilizado para comunicarmos com o servidor, o nome do host e o rercurso que queremos acessar
+
+

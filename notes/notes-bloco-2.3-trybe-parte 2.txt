@@ -1,0 +1,44 @@
+MODELO CLIENTE -- SERVIDOR:
+
+- o modelo cliente servidor e utilizado para descrever a forma com que um cliente (dispositivo conectado a web) e um servidor se comunicam na rede
+
+- todos os dados que viajam entre o cliente e o servidor sao enviados atraves da rede internet usando o protocolo TCP/IP
+
+- o responsavel por gerenciar o transito de informacoes de uma aplicacao entre varios servidores backend e chamado de balanceador de carga
+
+- balanceamento de carga e um tempo generico para uma serie de algoritmos que distribuem as requisicoes para o servidor
+
+- atraves desses algoritmos o balanceador de cargas divide para qual host as requisicoes serao direcionadas em um sistema de servicos distribuidos
+
+- o balanceador de carga resolve problema de trafego de dados, distruibido as requisicoes para outros servidores backend
+
+
+
+
+
+SERVICOS:
+
+- um servidor e apenas um outro servidor capaz de iteragir com outros servidore
+
+- diferente de o que acontece com um servidor web, que interage somente com o cliente
+
+- cada servico tem uma funcionalidade (ex: servico para autenticacao de usuario, servico de busca)
+
+- com isso e possivel "quebrar" ou dividir o seu servidor web da sua aplicacao em multiplos servicos, cada um com sua funcionalidade especifica
+
+- voce pode escalonalos de forma idependente
+
+- os times de uma empresa tambem podem trabalhar de forma independente em um determinado servico
+
+- a aplicacao ainda continua centralizada em um unico lugar.
+
+
+
+CDN:
+
+- CDN = Content Delivery Network ou RDC = Rede de Distribuicao de Conteudo
+
+- o CDN e um sistema de distribuicao de servidores "proxy"
+
+- o servidor proxy age como um intermediario entre cliente e servidor
+
