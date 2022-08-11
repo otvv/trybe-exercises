@@ -5,7 +5,10 @@ git checkout 4_PRIMEIROS_NUMEROS_DO_HASH_DO_COMMIT~1 (o git checkout serve pra s
 git commit -a (a flag -a agrupa o comando add ao commit, entao ele ja faz o commit adicionando os arquivos no staging)
 git fetch mostra as mudancas a serem feitas no repositorio (uma visualizacao)
 git pull (ja pega as mudancas do repositorio remoto e atualiza no seu repositorio local)
+git push (manda as mudancas do repositorio local parao remoto)
 
+
+OBS: caso vc esteja em uma branch nova que foi criada localmente e nao foi sincronizada no repositorio remoto, utilizar a flag "-u" com o git push para fazer o upstream da branch!!
 OBS: apos fazer a restauracao de um arquivo, nao esqueca de fazer um commit para de fato restaurar o arquivo.
 OBS: o gitignore pode ser usado para ignorar qualquer tipo de arquivo ou diretorio
 OBS: se a pasta ja tiver uma pasta oculta '.git' isso significa que ela ja eh um repositorio

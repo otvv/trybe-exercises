@@ -1,0 +1,57 @@
+SOFT SKILLS: 
+
+#Gestao de tempo -
+- tenha poucas prioridades para um periodo de um ano
+- uma dessas prioridades vai ser se formar na Trybe
+- podemos quebrar a prioridade de se formar na Trybe em partes usando os modulos presente no curso como referencia
+- colocar as nossas metas e entregas (projetos, exercicios, conquistas) em algum lugar visivel pois e importante que recordemos estas coisas
+- outra opcao seria usar uma agenda de celular (google agenda, etc) onde podemos colocar nossos compromissos diarios, semanais, lembretes e etc
+- se auto conhecer para poder ter uma boa gestao de tempo, o que podemos "cortar" da nossa rotina, o que podemos adicionar, diminuir e assim por diante
+- em outras palavras, estudar a nossa rotina e onde estou gastando meu tempo
+- defina diariamente as tarfeas
+- sempre reforce as suas metas, escreva em algum lugar, deixe visivel
+
+
+
+HTML:
+- HTML = Hyper Text Markup Language (Linguagem de marcação de texto)
+- o HTML tem uma estrutura primaria, com diversas tags para representar as informações que queremos transmitir
+- o HTML seria como o esqueleto da pagina
+- atraves do HTML que iremos criar a estrutura de como cada pagina sera exibida
+- HTML não é uma linguagem de programação
+- HTML teve o surgimento com o principal objetivo de ajudar no compartilhamento de informação
+- a tag <html> é como se fosse a raíz da página
+- é bastante importante colocar a linguagem que o site se encontra
+- HEAD e BODY são umas das as tags mais importantes e necessarias para uma pagina
+- dentor do BODY vao estar todas as tags que serão visíveis na página
+- links internosÇ fazem referencia a alguma coisa dentro da propria pagina
+- links externos fazem referencia a alguma coisa dentro de outra pagina
+
+PRIMEIRAS TAGS:
+- <br>: quebra uma linha 'similar ao \n' (ela nao precisa de fechamento)
+- <strong>: ela da um "peso" maior a uma certa informacao, seria algo como um texto em negrito
+- <em>: faz o texto "ficar aparecer em italico", mas ela tem um significado semantico diferente
+- <ol> ou <ul>: sendo a estrutura da lista (ordenada ou nao ordenada)
+- <li>: dentro dela vai ser o item da lista
+- <img>: tag para exibir uma imagem utilizando o atributo src que seria o caminho da nossa imagem (podemos usar outras propriedades como width e height para uma tag de imagem)
+- <a>: constroi um hyperlink dentro da pagina, tanto para items internos quanto items externos
+
+OBS: tag ul = sendo uma lista nao ordenada (com bullet points) e a tag ol seria uma tag ordenada (com numeracao da ordem dos items)
+OBS: o caminho de uma imagem pode ser tanto um caminho remoto (link) quanto local
+OBS: a tag img nao necessita de fechamento, igual a tag <br>
+OBS: boa pratica seria sempre adicionar uma descricao de uma imagem utilizando o atributo alt.
+OBS: o atributo target dentro da tag <a> define o alvo do link sendo aberto (abrindo o link em uma pagina em branco)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ADICIONAR A DESCRICAO NAS IMAGEMS NO EXERCICIO!!!!
