@@ -1,10 +1,9 @@
 CSS: 
-- se usarmos o nome de uma tag em HTML como nome da "classe" em um arquivo CSS ou de uma tag script dentro de um arquivo HTML, podemos subsitituir as propriedades de todas as tags iguais as que definirmos no CSS
+- se criarmos um seletor com o nome de uma tag HTML em um arquivo CSS ou dentro de uma tag script, podemos subsitituir as propriedades de todas as tags iguais as que definirmos no CSS
 - ja se quisermos mudar a aparencia/propriedades de uma tag especifica, podemos usar o seu id no CSS. 
-- o id tera que ser unico e na hora de declarar 
-- classes no CSS comecam com '.' e ids comecam com '#'
-- a ordem das estilizacoes importam no CSS, igual em uma linguagem de programacao,
-- podemos usar classes em outras tags, entao elas sao recomendadas para estilos que irao se repetir na pagina
+- o id tera que ser unico e na hora de declarar no css utilizamos o # e sao utilizados em elementos com um estilo exclusivo
+- classes no CSS comecam com '.' e sao usadas para elementos que compartilham a mesma estilizacao
+- a ordem das estilizacoes importam no CSS, igual em uma linguagem de programacao, (ordem cascata)
 
 ESTILIZACAO DE TERXTO:
 - font-family: sans-serif geralmente vai usar a fonte padrao sans serif do computador do usuario
@@ -23,5 +22,5 @@ UNIDADES DE MEDIDA:
  
  HTML:
  - podemos estilizar uma tag HTML diretamente usando a proprieddade style
- - sendo chamado de CSS Inline, essa pratica nao e reocomendada, pois nao e considerada uma boa pratica
+ - sendo chamado de CSS Inline, essa pratica nao e reocomendada, pois nao e pratica na hora da manutencao do site 
  - usamos a tag link para incluir um arquivo CSS externo

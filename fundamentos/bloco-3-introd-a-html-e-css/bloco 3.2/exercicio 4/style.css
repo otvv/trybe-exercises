@@ -1,0 +1,51 @@
+/*
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8;
+  color: #636363;
+  text-align: center;
+}
+
+h1, h2, h4, h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5b5e45;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+p {
+  text-align: center;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+a {
+  color: #9dbb4a;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#avatar {
+  text-align: center;
+  border-radius: 30%;
+  border: 50px, dashed #5b5e45;
+}
+
+#index {
+  list-style-type:square;
+  text-align: left;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 15px 10px;
+  background-color: #5b5e45;
+  text-decoration: none;
+  text-align: center;
+  color: #f8f8f8;
+}
