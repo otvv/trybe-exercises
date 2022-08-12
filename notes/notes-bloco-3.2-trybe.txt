@@ -1,0 +1,9 @@
+CSS: 
+- se usarmos o nome de uma tag em HTML como nome da "classe" em um arquivo CSS ou de uma tag script dentro de um arquivo HTML, podemos subsitituir as propriedades de todas as tags iguais as que definirmos no CSS
+- ja se quisermos mudar a aparencia/propriedades de uma tag especifica, podemos usar o seu id no CSS. 
+- o id tera que ser unico e na hora de declarar 
+- classes no CSS comecam com '.' e ids comecam com '#'
+- a ordem das estilizacoes importam no CSS, igual em uma linguagem de programacao, mas somente quando for entre uma substituicao direta (tag) e um id/classe, se for entre classes e ids nao funciona
+- podemos usar classes em outras tags, entao elas sao recomendadas para estilos que irao se repetir na pagina
+
+
