@@ -41,17 +41,3 @@ OBS: o caminho de uma imagem pode ser tanto um caminho remoto (link) quanto loca
 OBS: a tag img nao necessita de fechamento, igual a tag <br>
 OBS: boa pratica seria sempre adicionar uma descricao de uma imagem utilizando o atributo alt.
 OBS: o atributo target dentro da tag <a> define o alvo do link sendo aberto (abrindo o link em uma pagina em branco)
-
-
-
-
-
-
-
-
-
-
-
-
-
-ADICIONAR A DESCRICAO NAS IMAGEMS NO EXERCICIO!!!!
