@@ -3,7 +3,25 @@ CSS:
 - ja se quisermos mudar a aparencia/propriedades de uma tag especifica, podemos usar o seu id no CSS. 
 - o id tera que ser unico e na hora de declarar 
 - classes no CSS comecam com '.' e ids comecam com '#'
-- a ordem das estilizacoes importam no CSS, igual em uma linguagem de programacao, mas somente quando for entre uma substituicao direta (tag) e um id/classe, se for entre classes e ids nao funciona
+- a ordem das estilizacoes importam no CSS, igual em uma linguagem de programacao,
 - podemos usar classes em outras tags, entao elas sao recomendadas para estilos que irao se repetir na pagina
 
+ESTILIZACAO DE TERXTO:
+- font-family: sans-serif geralmente vai usar a fonte padrao sans serif do computador do usuario
+(fontes sans-serif serem uma fonte mais simples)
+- font-family: serif geralmente vai usar a fonte padrao serif do computador do usuario
+(fontes serif geralmente sao fontes de documento de texto, como times new roman)
+- font-family: fonte_especifica podemos definir uma fonte especifica, a fonte pode tanto estar no remoto quanto no local
+- font-family: podemos adiconar uma segunda fonte, que seria uma fonte reserva
+- font-family: genericas (cursive, fantasy e monospace)
 
+OBS: uma fonte monospace tem a mesma largura entre os caracteres
+
+UNIDADES DE MEDIDA:
+ px: tamanho em pixels na tela
+ em: sendo relacao com outros (ex: 2em = 2x o tamanho "padrao" das outras fontes definidas no body)
+ 
+ HTML:
+ - podemos estilizar uma tag HTML diretamente usando a proprieddade style
+ - sendo chamado de CSS Inline, essa pratica nao e reocomendada, pois nao e considerada uma boa pratica
+ - usamos a tag link para incluir um arquivo CSS externo
