@@ -1,0 +1,37 @@
+h1 {
+  font-size: 3em;
+  color: orange;
+  font-family: sans-serif;
+}
+
+p {
+  font-weight: 600;
+}
+
+body {
+  font-size: 16px;
+  text-align: center;
+}
+
+ul {
+  line-height: 3em;
+  text-decoration:overline;
+  background-color: rgb(245, 245, 245);
+}
+
+.bg-color {
+  color: rgb(160, 131, 92);
+}
+
+#cor1 {
+  color: yellow;
+}
+
+#cor2 {
+  color: red;
+}
+
+#cor3 {
+  color: brown;
+}
+
