@@ -1,0 +1,76 @@
+CSS:
+- usando o tamanho em porcentagem, utiliza o tamanho relativo da pagina (dinamico)
+- propriedades shorthand sao aquelas que servem omo um atalho para controlar um conjunto de outras propriedades que poderiam ser definidas individualmente (ex: border com border-width, border-style, etc)
+- conseguimos agrupar seletores utilizando a `,` apos o nome do primeiro seletor
+- pseudoclasse sao as propriedades de um elemento (tag), por exemplo: hover, active, etc
+- sempre procure utilizar o background-size: cover para manter o tamanho da imagem de fundo idependente do tamanho da tela
+- reset default seria zerar algumas propriedades padrao do HTML que o navegador seta (geralmente feito utilizando o seletor `*`)
+- medidas relativas sao baseadas em outra coisa, seja uma outra div ou a tela em si
+- para centralizar um elemento utilizando o margin, sempre certifique-se que o elemento que vc estiver centralizando esteja dentro de um outro elemento pai para usar como referencia
+
+
+OBS: a pseudo-classe nth-of-type permite selecionarmos um elemento especifico de acordo com o seu tipo selecionado (args: numero do elemento a ser selecionado )
+
+
+
+
+
+
+
+BOX MODEL:
+todos os elementos HTML sao renderizados como "caixas" pelo navegador
+o box model eh composto por: MARGIN > BORDER > PADDING > CONTEUDO (Width e Height)
+
+
+
+PROPRIEDADES:
+
+#overflow: 
+- seria tudo que esta fora do "div" meio que um limitador, e se utilizarmos a propriedade hidden iria ocultar o conteudo ou se utilizar a propriedade auto para renderizar o conteudo automaticamente, geralmente criando uma barra de rolagem 
+
+
+#width e height:
+- largura e altura do conteudo, desconsiderando as bordas, margens e padding
+
+
+#padding: 
+- seria como o enchimento e controla a quantidade de spa;o vazio entre o conteudo em si e a borda da caixa.
+- por padrao ele aumenta o tamanho total do elemento, enchendo a "caixa" e fazendo com que ela precise ser maior quer as dimensoes do conteudo
+- e preciso ter isso em mente na hora de usar o padding para balancear a altura e largura da "caixa".
+
+
+#border:
+- seria a borda da caixa, a propriedade e considerada como um shorthand
+
+
+#margin:
+- a margem funciona como um "campo de forca" que expande o elemento para alem das suas dimensoes visiveis
+- ela fica do lado de fora da borda e nao e afetada pela estilizacao do elemento
+- ela serve mais para manejar o afastamento entre as caixas (NAO ESQUECER QUE A margem AINDA FAZ PARTE DA CAIXA DENTRO DO Box Model)
+
+
+#position:
+- absolute = faz o elemento ficar na frente de outros objetos, ou seja a sua posicao seria absoluta "passando por cima" das outras coisas
+- a posicao absolute tambem seria a posicao definitiva, pois ela vai ficar no lugar original.
+
+- fixed = seria a posicao fixa na tela, ou seja, se eu descer a tela para baixo o objeto vai me "seguir" pois esta fixo na tela, ao contrario de absolute
+
+
+#z-index:
+- seria a ordem dos elementos que vao ser mostrados de forma absoluta
+
+
+#float: ira fazer um elemento flutuar
+
+
+
+TAGS: 
+
+#<span>:
+- tem o comportamento em inline (continua na mesma linha)
+
+
+#<div>:
+- funciona como um container
+- tem o comportamento em bloco (cria um outro bloco)
+

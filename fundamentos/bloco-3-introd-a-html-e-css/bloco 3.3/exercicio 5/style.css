@@ -1,0 +1,62 @@
+/*
+*/
+
+h1,h3 {
+  color: #f76464;
+}
+
+li {
+  font-size: 20px;
+}
+
+.items {
+  background-color: #fafa90;
+}
+
+.items-pair {
+  color: #19c977;
+}
+
+.items-odd {
+  text-transform: uppercase;
+}
+
+.italic-header {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+.italic-list-item {
+  font-weight: bold;
+}
+
+.language-list {
+  color: #4572d4;
+}
+.java-filter {
+  background-color: #ffc0cb;
+}
+
+.helpers:hover {
+  font-weight: bold;
+}
+
+.helpers-stack:hover {
+  color: #ffa500;
+}
+
+.helpers-w3s:hover {
+  color: #34d634;
+}
+
+.helpers-mdn:hover {
+  color: #252525;
+}
+
+.helpers-devdocs:hover {
+  color: #e0dd04;
+}
+
+.helpers-trybe:hover {
+  color: #19c977;
+}
