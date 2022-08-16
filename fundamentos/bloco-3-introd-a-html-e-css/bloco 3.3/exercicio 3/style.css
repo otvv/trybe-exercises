@@ -1,0 +1,18 @@
+/*
+*/
+
+h1, p {
+  text-align: center;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+ol:hover {
+  background-color: antiquewhite;
+}
+
+il:active {
+  font-family: fantasy, monospace;
+}
