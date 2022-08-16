@@ -1,0 +1,63 @@
+HTML SEMANTICO:
+- causa uma melhor leitura e entendimento do codigo, sem contar que deixa a pagina mais profissional e acessivel.
+
+#tags:
+
+- html = representa o tipo de documento em questao, no caso o HTML
+
+- head = representa os metadados do documento HTML (titulos, links, favicon, etc)
+
+- body = representa todo o conteudo visual do documento HTML
+
+- form = representa um formulario para que o usuario consiga inserir dados
+
+- footer = representa um rodape
+
+- header = usado para representar um cabecalho
+
+- main = representa o conteudo principal da pagina
+
+- article = representa um artigo, ou conteudos auto-contido
+
+- section = representa uma sen;ao
+
+- aside = usado para barras laterais, indices laterais, conteudos que ficam no "lado" da pagina
+
+- nav = utilizado para secoes com links de navegacao
+
+- video = utilizado para videos
+
+- label = para frases/nomes simples
+
+
+
+
+INLINE e BLOCK:
+
+#inline:
+- ocupam a largura do proprio conteudo
+- se comporta como se fosse um texto
+- geralmente usado para textos ou coisas que ficarao na mesma linha
+- dois ou mais elementos inline sao posicionados um do lado do outro
+- elementos inline nao permitem a mudanca da largura e altura (width e height)
+- so e possivel alterar as margens horizontais (left, right)
+
+OBS: ao aplicar a propriedade float: o elemento inline vira block
+OBS: (span seria como se fosse um div para elementos inline)
+
+
+
+#block: 
+- ocupam 100% da largura do elemento pai
+- funcioname como bloco, ficam um abaixo do elemento anterior
+- altura padrao e definida pelo conteudo dentro dele (height)
+- e possivel alterar o tamanho e margens do elemento em bloco
+
+OBS: (div seria um bom exemplo de um elemento block)
+
+
+#inline-block:
+- ocupam a largura do proprio conteudo (mesma coisa dos elementos inline)
+- dois ou mais elementos inline-block em sequencia sao posicionados lado-a-lado (comportamento de elementos inline)
+- e possivel alterar as propriedades de tamanho e largura (width e height, igual um elemento block)
+- e possivel alterar todas as propriedades de margens (igual em elementos block)
