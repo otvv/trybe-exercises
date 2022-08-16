@@ -1,5 +1,6 @@
 HTML SEMANTICO:
-- causa uma melhor leitura e entendimento do codigo, sem contar que deixa a pagina mais profissional e acessivel.
+- seria um codigo mais "readable" com um significado melhor
+- causa uma melhor leitura e entendimento do codigo, sem contar que deixa a pagina mais profissional e acessivel
 
 #tags:
 
