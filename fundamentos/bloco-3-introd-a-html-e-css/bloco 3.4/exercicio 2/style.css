@@ -58,3 +58,8 @@ a:hover {
   height: 40px;
   
 }
+
+#footer {
+  text-align: center;
+  margin: 300px auto;
+}
