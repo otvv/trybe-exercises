@@ -1,0 +1,9 @@
+- o javascript possui uma tipagem dinamica, ele consegue identificar o tipo da variavel somente pelo valor, sem especificar o tipo da variavel explicitamente como em outras linguagens (c++, c)
+
+- javascript e uma linguagem "fracamente" tipada, pois podemos mudar o tipo de uma variavel dinamicamente e nao somente o seu valor
+
+- conseguimos ver o tipo de uma variavel atraves da keyword typeof + nome_variavel
+
+- instalar o code runner
+
+- a keyword 'var' nao e considerada segura pois pode escapar do escopo dela e pode causar problemas, portanto nao e reocmendado o seu uso
