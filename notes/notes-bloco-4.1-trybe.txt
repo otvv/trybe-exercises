@@ -4,6 +4,4 @@
 
 - conseguimos ver o tipo de uma variavel atraves da keyword typeof + nome_variavel
 
-- instalar o code runner
-
 - a keyword 'var' nao e considerada segura pois pode escapar do escopo dela e pode causar problemas, portanto nao e reocmendado o seu uso
