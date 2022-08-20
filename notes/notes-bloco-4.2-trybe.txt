@@ -1,0 +1,39 @@
+ARRAY:
+
+- umas das vantagens dos AARRAYS sao guardar informacoes em uma mesma estrutura
+
+- por meio do .lenth conseguimos ter acesso a quantidaade de elementos contidos no array
+
+- a primeira posicao de um array sempre vai iniciar com 0
+
+- o metodo push adiciona um novo item ao final do array, algo parecido com o metodo push_back dos vetores em c++
+
+- o metodo unshift adiciona um novo item no comeco do array (lembre-se que este metodo subsititui o array original)
+
+- o metodo pop remove um item ao final do array
+
+- o metodo shift remove um item no comeco do do array
+
+- indexof seria como o at do c++, ele fala qual e o index atual de um item dentro do array  
+
+- caso tente acessar uma posicao nao existente de um array, ira gerar um valor undefined (indefinido)
+
+
+FOR OF:
+
+- podemos usar o for of em objetos iteraveis, como arrays (containers), ou uma estrutura de dados que nos permitem acessar o conteudo com um simples loop for
+
+- o for of nos permite criar loops em objetos iteraveis como strings, arrays e containers (similar o  for (auto nome : container) do c++17)
+
+- o for of nao altera o valor de um array mas sim leva a tona os valores de dentro
+
+
+WHILE/DO:
+
+- usamos o while quando nao sabemos exatamente quantas vezes o loop deve se repetir
+
+- temos que ter cuidado para nao criarmos um loop infinito
+
+- geralmente o while loop e usado para comparacoes, ou seja ele executa a iteracao com apenas uma condicao, se ela for verdadeira o contaudo dentro do loop vai ser executado caso contrario nada ira acontecer (o bloco seria encerrado)
+
+- podemos usar o comando break para encerrar um loop while
