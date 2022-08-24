@@ -1,0 +1,7 @@
+OBJETOS: 
+- sao compostos por entradas, cada entrada possui uma chave e um valor.
+- as entradas sao chamadas de propriedades
+- entradas sao separadas por virgulas
+- objetos podem receber propriedades de tipos diferentes (string, numeros, arrays, objetos, etc)
+- conseguimos acessar os valores dos objetos utilizando por '.' ou utilizando o nome da propriedades atraves de '[]'.
+- podemos criar propriedades utilizando o '[]'.
