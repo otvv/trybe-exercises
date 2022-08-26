@@ -1,0 +1,20 @@
+PARENTNODE:
+- o parentNode acessa o elemento pai do elemento que estamos "pesquisando"/chamando
+- o "conteúdo" do parent mode é somente leitura, não conseguimos fazer atribuições nele
+- conseguimos navegar para outros elementos concatenando o parentNode ou utilizando outras propriedades
+
+PROPRIEDADES:
+#parentNode: retorna o node pai
+#parentElement: retorna o elemento pai
+#childNodes: retorna uma nodelist com os node filhos
+#firstChild: retorna o primeiro node filho
+#firstElementChild: retorna o primeiro elemento filho
+#lastChild: retorna o ultimo node elemento filho
+#lastElementChild: retorna o ultimo elemento filho
+#nextSibling: retorna o próximo node filho
+#nextElementSimple: retorna o proximo elemento filho
+#previousSibling: retorna o node anterior (irmão anterior?)
+#previousElementSibling: retorna o elemento anterior (irmão)
+
+
+
