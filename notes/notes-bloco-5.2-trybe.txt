@@ -15,6 +15,3 @@ PROPRIEDADES:
 #nextElementSimple: retorna o proximo elemento filho
 #previousSibling: retorna o node anterior (irmão anterior?)
 #previousElementSibling: retorna o elemento anterior (irmão)
-
-
-

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 1 🚀 Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
+      const body = document.querySelector('body');
+      const h1Element = document.createElement('h1');
+      h1Element.innerText = 'Título';
+      h1Element.className = 'title';
+      body.appendChild(h1Element);
+
+      // 2 🚀 Adicione a tag main com a classe main-content como filho da tag body;
+      const mainElement = document.createElement('main');
+      mainElement.className = 'main-content';
+      body.appendChild(mainElement);
+
+      // 3 🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+      const sectionElement = document.createElement('section');
+      sectionElement.style.backgroundColor = 'green';
+      mainElement.appendChild(sectionElement);
+
+      // 4 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+      const paragraphElement = document.createElement('p');
+      paragraphElement.innerText = 'Isto é um parágrafo.';
+      sectionElement.appendChild(paragraphElement);
+
+      // 5 🚀 Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+      const secondSectionElement = document.createElement('section');
+      secondSectionElement.className = 'left-content';
+      mainElement.appendChild(secondSectionElement);
+
+      // 6 🚀 Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+      const thirdSectionElement = document.createElement('section');
+      thirdSectionElement.className = 'right-content';
+      thirdSectionElement.style.marginRight = 'auto';
+      mainElement.appendChild(thirdSectionElement);
+
+      // 7 🚀 Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5;
+      const imageElement = document.createElement('img');
+      imageElement.src = 'https://picsum.photos/200';
+      imageElement.className = 'small-image';
+      secondSectionElement.appendChild(imageElement);
+
+      // 8 🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. 
+      // Essa lista deve ser filha do section criado no passo 6;
+      const unorderedListElement = document.createElement('ul');
+      
+      const itemList1 = document.createElement('li');
+      const itemList2 = document.createElement('li');
+      const itemList3 = document.createElement('li');
+      const itemList4 = document.createElement('li');
+      const itemList5 = document.createElement('li');
+      const itemList6 = document.createElement('li');
+      const itemList7 = document.createElement('li');
+      const itemList8 = document.createElement('li');
+      const itemList9 = document.createElement('li');
+      const itemList10 = document.createElement('li');
+
+      itemList1.innerText = 'um';
+      itemList2.innerText = 'dois';
+      itemList3.innerText = 'três';
+      itemList4.innerText = 'quatro';
+      itemList5.innerText = 'cinco';
+      itemList6.innerText = 'seis';
+      itemList7.innerText = 'sete';
+      itemList8.innerText = 'oito';
+      itemList9.innerText = 'nove';
+      itemList10.innerText = 'dez';
+      
+      unorderedListElement.appendChild(itemList1)
+      unorderedListElement.appendChild(itemList2)
+      unorderedListElement.appendChild(itemList3)
+      unorderedListElement.appendChild(itemList4)
+      unorderedListElement.appendChild(itemList5)
+      unorderedListElement.appendChild(itemList6)
+      unorderedListElement.appendChild(itemList7)
+      unorderedListElement.appendChild(itemList8)
+      unorderedListElement.appendChild(itemList9)
+      unorderedListElement.appendChild(itemList10)
+
+      thirdSectionElement.appendChild(unorderedListElement);
+
+      unorderedListElement.removeChild(itemList10);
+      unorderedListElement.removeChild(itemList9);
+
+      // 9 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+      const h31 = document.createElement('h3');
+      h31.className = 'description';
+
+      const h32 = document.createElement('h3');
+      h32.className = 'description';
+
+      const h33 = document.createElement('h3');
+      h33.className = 'description';
+
+      mainElement.appendChild(h31);
+      mainElement.appendChild(h32);
+      mainElement.appendChild(h33);
+
+      mainElement.removeChild(secondSectionElement)
+
+      //
+      // what the fuck is this bro :skull:
+      // 
+
+
+    </script>
+  </body>
+</html>
