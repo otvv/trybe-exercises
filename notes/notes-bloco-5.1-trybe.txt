@@ -1,0 +1,24 @@
+DOM:
+- Document Object Model é uma interface que representa como os HTML e XML sao lidos pelo browser.
+- apos a leitura do documento html pelo browser, o dom cria um objeto que faz uma representaçao do documento e define um meio para acessarmos a estrutura da página
+- podemos usar o javascript para manipular o dom e/ou alterar o estilo e o conteúdo de uma página
+- a nossa página é representada por nós e objetos e através dos mesmos que conseguimos realizar a comunicação do nosso HTML com o javascript
+- em outras palavras o DOM seria como uma representação OOP da página web
+
+ESTRUTURA DOM:
+Window: representa uma janela que contém um elemento DOM
+location: representa a localização do objeto no qual ele está associado no caso o documento atual
+document: representa qualquer página da web carregada no navegador, age como um ponto de entrada para o conteúdo na página (sendo assim o document contém todos os documentos HTML)
+history: permite a manipulação do histório da sessão do navegador
+element: a classe base mais geral, onde todos os elementos de um Document estão (ou seja, são todas as TAGS html que estão em arquivos HTML)
+text: texto que vai entre os elementos, (entre o inicio e fechamento de uma tag) seria todo o conteúdo de uma tag
+atribute: atributos de um elemento, como uma class ou id
+
+SELETORES:
+getElementByClassName: consegue "pegar" um elemento ou varios através do nome da sua classe (guarda eles dentro de um array)
+getElementByTagName: consegue "pegar" um elemento ou varios através de sua tag (guarda eles dentro de um array)
+getElementById: consegue "pegar" um elemento através de seu ID
+querySelector: consegue "pegar" um elemento através de seu seletor CSS ou tag html (. para classes ou # para ids) caso utilize uma tag) 
+ele sempre vai retornar o primeiro elemento encontrado, a nao ser que voce especifique o seletor pai e filho. 
+querySelectorAll: funciona quase da mesma forma que o querySelector, mas ao invés de retornar somente o primeiro elemento encontrado, ele retorna todos os elementos encontrados de acordo com o seletor especificado e com isso coloca eles em um array
+

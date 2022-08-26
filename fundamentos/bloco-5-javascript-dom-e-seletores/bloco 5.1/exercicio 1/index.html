@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id='page-title'>Título</h2>
+      <p id='paragraph'>Dê uma cor para este parágrafo!</p>
+      <h4 id='subtitle'>Subtítulo</h4>
+      <p id='second-paragraph'>Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById('paragraph');
+      paragraph.style.color = 'red';
+
+      const title = document.getElementById('page-title');
+      title.textContent = '12 Monkeys';
+
+      const secondParagraph = document.getElementById('second-paragraph');
+      secondParagraph.textContent = 'Created by Travis Fickett, Terry Matalas. With Aaron Stanford, Amanda Schull, Barbara Sukowa, Emily Hampshire. Follows the journey of a time traveler from the post-apocalyptic future who appears in present day on a mission to locate and eradicate the source of a deadly plague that will nearly destroy the human race.';
+
+      const subtitle = document.getElementById('subtitle');
+      subtitle.textContent = 'A show about time travel.';
+    </script>
+  </body>
+</html>
