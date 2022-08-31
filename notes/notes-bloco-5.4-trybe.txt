@@ -1,0 +1,32 @@
+WEB STORAGE:
+
+cookie:
+- util para quando precisamos de enviar dados para um servidor atraves de requisições, ou seja quando precisamos do dado no servidor e no cliente
+- podemos excluir um cookie passando uma data que já passou (expirou)
+- são passados através de requisições web
+- limite de armazenamento de 4kB
+
+sessionStorage:
+- armazena dados no formato chave-valor no formato de string
+- salva os dados de sessão, ou seja apartir do momento em que voce fecha a aba ou o navegador os dados são deletados
+- limite de armazenamento de 5 MB
+- a funcao setItem recebe dois argumentos (key e valor)
+- a funcao getItem recebe 1 argumento (key)
+- podemos acessar a key diretamente atraves do objeto sessionStorage
+
+localStorage:
+- armazenam dados no formato chave-valor no formato de string
+- salva os dados localmente (eles nao expiram e são salvos localmente (na máquina) e só são removidos de forma explicita)
+- limite de armazenamento de 5 a 10 MB
+- a funcao setItem recebe dois argumentos (key e valor)
+- a funcao getItem recebe 1 argumento (key)
+- podemos acessar a key diretamente atraves do objeto localStorage
+
+OBS: podemos usar algumas funcoes do modulo JSON para usar outros tipos de valores, como números, etc
+
+OBS: ao salvar strings no localStorage não é necessário utilizar o JSON.stringfy ou o JSON.parse
+
+OBS: para utilizarmos os storages precisamos acessar seus objetos (cookie, localStorage ou sessionStorage)
+- e usarmos os metodos setItem, getItem, atribuição, retribuição (por []) ou utilizando o metodo key
+
+OBS: podemos atribuir um valor diretamente através da key, sem utilizar os métodos próprios

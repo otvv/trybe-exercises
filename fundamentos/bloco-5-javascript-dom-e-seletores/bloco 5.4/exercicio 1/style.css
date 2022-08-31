@@ -1,0 +1,14 @@
+input {
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.header-text {
+  color: rgb(65, 65, 65);
+}
+
+.controls {
+  display: inline-block;
+  margin-left: 20px;
+}
