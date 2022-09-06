@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body>
+
+  <header class='page-header'>
+    <h1>TrybeTrip</h1>
+  </header>
+
+  <main>
+    <form action='' id='main-form' method='get' class='main-page-form'>
+      <div>
+        <label for='full-name'>Nome completo:</label>
+        <input required type="text" minlength='10' maxlength='40'  name="full-name" id="full-name">
+      </div>
+
+      <div>
+        <label for='email'>E-mail:</label>
+        <input required type="email" autocomplete='off' minlength='10' maxlength='50' name="email" id="email">
+      </div>
+
+      <div>
+        <input required name='destination' id='destination1' type='radio'>
+        <label for='destination'>Alemanha</label>
+          
+        <input required name='destination' id='destination2' type='radio'>
+        <label>Italia</label>
+          
+        <input required name='destination' id='destination3' type='radio'>
+        <label>EUA</label>
+          
+        <input required name='destination' id='destination4' type='radio'>
+        <label>Espanha</label>
+      </div>
+
+      <div>
+        <label>Por que voce deseja realizar esta viagem?</label>
+        <textarea maxlength='500'></textarea>
+      </div>
+
+      <div>
+        <label>Data preferida para realizar a viagem:</label>
+        <input required type="date" name='prefered-date' id='prefered-date'>
+      </div>
+
+      <fieldset>
+        <legend>Termos</legend>
+
+        <input type="checkbox" name='opt-in-news' id='is-news-opt-in'>
+        <label for='is-news-opt-in'>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <br>
+        <input type="checkbox" name='terms-agreed' id='is-terms-agreed'>
+        <label for='is-terms-agreed'>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+      </fieldset>
+      <div>
+        <button type='submit' id='submitBtn'>Enviar</button>
+        <button id='clearBtn'>Apagar</button>
+      </div>
+      
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

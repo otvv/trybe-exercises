@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: unset;
+}
+
+body {
+  background-color: rgb(206, 217, 224);
+  color: rgb(80, 80, 80);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.page-header {
+  background-color: rgb(245, 245, 245);
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 7px;
+}
+
+.main-page-form {
+  background-color: rgb(245, 245, 245);
+  width: 80%;
+  margin: 0px auto 20px auto;
+  padding: 20px;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 7px;
+}
+
+input[type='text'], input[type='email'] {
+  width: 80%;
+  margin: 5px auto;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 3px;
+}
+
+textarea {
+  width: 80%;
+  resize: none;
+  font-size: 12px;
+  padding: 15px;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 3px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+  margin: 5px auto;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+fieldset {
+  padding: 15px;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 3px;
+  width: 80%;
+}
+
+button {
+  margin: 20px auto;
+  border: 1px solid rgb(173, 173, 173);
+  background-color: rgba(167, 167, 167, 0.329);
+  padding: 6px;
+}
+
+button:hover {
+  background-color: rgba(235, 235, 235, 0.329);
+  cursor: pointer;
+}
