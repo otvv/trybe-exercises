@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body>
+
+  <header >
+    <h1 class='hero-tagline'>TrybeTrip</h1>
+  </header>
+
+  <main>
+    <form class='pure-form pure-form-aligned' action='' id='main-form' method='get'>
+    
+      <div class='pure-control-group'>
+        <label class='pure-form-message-inline' for='full-name'>Nome completo:</label>
+        <input class='pure-input-2-3' required type="text" minlength='10' maxlength='40'  name="full-name" id="full-name">
+      </div>
+      
+      <div class='pure-control-group'>
+        <label class='pure-form-message-inline' for='email'>E-mail:</label>
+        <input class='pure-input-2-3' required type="email" autocomplete='off' minlength='10' maxlength='50' name="email" id="email">
+      </div>
+      
+      <div class='pure-control-group'>
+        <label class='pure-form-message-inline' for='reason' >Por que voce deseja realizar esta viagem?</label>
+        <textarea class='pure-input-2-3' maxlength='500' id='reason'r></textarea>
+      </div>
+      
+      <div class='pure-control-group'>
+        <p class='pure-form-message-inline'>Destino desejado:</p>
+        
+        <label class='pure-form-message pure-radio'for='destination'>
+          <input required name='destination' id='destination1' type='radio'> Alemanha
+        </label>
+
+        <label class='pure-form-message pure-radio'>
+          <input required name='destination' id='destination2' type='radio'> Italia
+        </label>
+
+        <label class='pure-form-message pure-radio'>
+          <input required name='destination' id='destination3' type='radio'> EUA
+        </label>
+        
+        <label class='pure-form-message pure-radio'>
+          <input required name='destination' id='destination4' type='radio'> Espanha
+        </label>
+      </div>
+
+      <br>
+
+      <div class='pure-control-group'>
+        <label class='pure-form-message-inline' for='prefered-date'>Data preferida para realizar a viagem:</label>
+        <input class='pure-input-2-3' required type="date" name='prefered-date' id='prefered-date'>
+      </div>
+      
+      <div class='pure-controls'>
+        <input type="checkbox" name='opt-in-news' id='is-news-opt-in'>
+        <label class='pure-form-message-inline' for='is-news-opt-in'>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <br>
+        <input type="checkbox" name='terms-agreed' id='is-terms-agreed'>
+        <label class='pure-form-message-inline' for='is-terms-agreed'>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+      </div>
+
+      <br>
+
+      <div class='pure-button-group' role='group'>
+        <button class='pure-u-1-6 pure-button-primary pure-button' type='submit' id='submitBtn'>Enviar</button>
+        <button class='pure-u-1-6 pure-button' id='clearBtn'>Apagar</button>
+      </div>
+    
+    </form>
+  </main>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
