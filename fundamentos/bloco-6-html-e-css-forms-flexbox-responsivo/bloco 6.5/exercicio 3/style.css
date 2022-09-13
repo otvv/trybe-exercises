@@ -1,0 +1,153 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: unset;
+}
+
+/* small screen */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #fff0f0;
+    font-size: 18px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .container {
+  }
+
+  .aside-one {
+    text-align: center;
+    list-style: none;
+  }
+
+  .aside-two {
+    text-align: center;
+    list-style: none;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  article p {
+    max-width: 75%;
+    align-self: center;
+  }
+
+  .main-content {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    margin: 50px 50px 20px 50px;
+  }
+}
+
+/* medium screen */
+@media screen and (max-width: 1366px) and (min-width: 768px) {
+  body {
+    background-color: #f5fff0;
+    font-size: 16px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .container {
+  }
+
+  .aside-one {
+    text-align: center;
+    list-style: none;
+  }
+
+  .aside-two {
+    text-align: center;
+    list-style: none;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  article p {
+    max-width: 75%;
+    align-self: center;
+  }
+
+  .main-content {
+    text-align: center;
+  }
+
+  footer {
+    margin: 30px;
+  }
+}
+
+/* big screen */
+@media screen and (max-width: 2560px) and (min-width: 1366px) {
+  body {
+    background-color: #f0f8ff;
+    font-size: 16px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .container {
+  }
+
+  .aside-one {
+    text-align: center;
+    list-style: none;
+  }
+
+  .aside-two {
+    text-align: center;
+    list-style: none;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  article p {
+    max-width: 75%;
+    align-self: center;
+  }
+
+  .main-content {
+    text-align: center;
+  }
+
+  footer {
+    margin: 20px;
+  }
+}
