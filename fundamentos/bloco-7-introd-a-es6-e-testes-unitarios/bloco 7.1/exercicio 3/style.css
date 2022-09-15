@@ -1,0 +1,16 @@
+/*
+*/
+
+body {
+  background-color: azure;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#main-btn {
+  width: 250px;
+  height: 50px;
+}
