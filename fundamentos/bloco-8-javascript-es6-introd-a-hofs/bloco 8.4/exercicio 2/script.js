@@ -66,7 +66,7 @@ const books = [
 
 const initialString = ''; /* ghetto undefined fix */
 const reduceNames = (arr) => arr.reduce((acc, book) => (`${acc + book.author.name}, `), initialString);
-//console.log(reduceNames(books));
+console.log(reduceNames(books));
 
 ///
 
@@ -78,14 +78,14 @@ const averageAge = (arr) => arr.reduce((acc, book) => {
   
   return Math.round(averageAuthorsAgeAtRelease);
 }, 0);
-//console.log(averageAge(books));
+console.log(averageAge(books));
 
 ///
 
 // we can also use sort as an alternative to this
 // the principle is the same as using: arr.sort((a, b) => a.name.length - b.name.length) 
 const longestNamedBook = (arr) => arr.reduce((acc, book) => (acc.name.length > book.name.length) ? acc : book);
-//console.log(longestNamedBook(books));
+console.log(longestNamedBook(books));
 
 ///
 
@@ -96,4 +96,4 @@ const names = [
 ];
 
 const containsAXTimes = (arr) => arr.reduce((acc, name) => (acc + name.match(/a/gi).length), 0);
-//console.log(containsAXTimes(names));
+console.log(containsAXTimes(names));
